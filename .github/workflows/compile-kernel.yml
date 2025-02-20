@@ -77,7 +77,14 @@ on:
         options:
           - -ophub
           - -reyre
-
+      kernel_config:
+        description: "Set the path of kernel .config"
+        required: false
+        default: "kernel-config/release/general"
+        type: choice
+        options:
+          - compile-kernel/tools/config
+          - false
 env:
   TZ: America/New_York
 
