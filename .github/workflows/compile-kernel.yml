@@ -76,6 +76,14 @@ on:
         type: choice
         options:
           - -reyre-78+o
+      kernel_config:
+        description: "Set the path of kernel .config"
+        required: true
+        default: "kernel-config/release/general"
+        type: choice
+        options:
+          - rayhanbone/compile-kernel/tools/config
+          - false
 
 env:
   TZ: America/New_York
