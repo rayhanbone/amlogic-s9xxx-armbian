@@ -82,7 +82,7 @@ on:
         default: "rayhanbone/amlogic-s9xxx-armbian/tree/main/compile-kernel/tools/config"
         type: choice
         options:
-          - rayhanbone/compile-kernel/tools/config
+          - rayhanbone/amlogic-s9xxx-armbian/tree/main/compile-kernel/tools/config
           - false
 
 env:
