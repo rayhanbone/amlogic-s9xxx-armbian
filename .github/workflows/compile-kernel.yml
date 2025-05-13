@@ -79,7 +79,7 @@ on:
       kernel_config:
         description: "Set the path of kernel .config"
         required: true
-        default: "kernel-config/release/general"
+        default: "rayhanbone/compile-kernel/tools/config"
         type: choice
         options:
           - rayhanbone/compile-kernel/tools/config
